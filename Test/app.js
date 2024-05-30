@@ -86,3 +86,73 @@ indexOf   : elemanın index numarasını verir.
 includes  : verilen elemanı içeriyor mu ona bakar. 
 
 */
+
+let arabalar = ["bmw","toyota","renault","mercedes","porsche"];
+//let arabalar2 = ["hundai","tofaş"];
+
+//? push:
+// console.log(arabalar.length);
+// arabalar.push("opel");
+// console.log(arabalar);
+
+//? unshift:
+// arabalar.unshift("hundai");
+// console.log(arabalar);
+
+//? pop:
+// let silinenEleman = arabalar.pop();
+// console.log(silinenEleman);
+
+//? shift:
+// let silinenEleman2 = arabalar.shift();
+// console.log(arabalar);
+// console.log(silinenEleman2);
+
+//? splice:
+// console.log(arabalar);
+// arabalar.splice(0,0,"hundai");
+// console.log(arabalar);
+//
+// arabalar.splice(1,2);
+// console.log(arabalar);
+//
+// arabalar.splice(2,2,"hundai");
+// console.log(arabalar);
+
+//? toString:
+// let stringArabalar=arabalar.toString();
+// console.log(stringArabalar);
+
+//? join:
+// let stringArabalar2 = arabalar.join("-");
+// console.log(stringArabalar2);
+
+//? concat:
+// let birlesmisDiziler = arabalar.concat(arabalar2);
+// console.log(birlesmisDiziler);
+
+//? slice:
+// console.log(arabalar);
+// let bolumusDizi = arabalar.slice(2,5);
+// console.log(bolumusDizi);
+
+//? Length(özellik):
+// console.log(arabalar.length);
+
+//? reverse
+// console.log(arabalar);
+// arabalar.reverse();
+// console.log(arabalar);
+
+//? split:
+// let isimler ="enes,ali,veli";
+// let isimlerDizi=isimler.split(",");
+// console.log(isimlerDizi);
+
+//? indexOf:
+// let index = arabalar.indexOf("mercedes");
+// console.log(index); // 3
+
+//? includes:
+let sonuc = arabalar.includes("mercedes1");
+console.log(sonuc);  // false
