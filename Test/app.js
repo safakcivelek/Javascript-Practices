@@ -154,5 +154,26 @@ let arabalar = ["bmw","toyota","renault","mercedes","porsche"];
 // console.log(index); // 3
 
 //? includes:
-let sonuc = arabalar.includes("mercedes1");
-console.log(sonuc);  // false
+// let sonuc = arabalar.includes("mercedes1");
+// console.log(sonuc);  // false
+
+//----------------------------------------
+
+// *** String Sınıfının Metotları ***
+
+/*
+chartAt()
+concat()
+indexOf()
+lastindexof()
+toUpperCase()
+toLowerCase()
+trim()
+slice()
+substring()
+replace()
+split()
+valueOf()
+startsWith()
+endsWith()
+ */
