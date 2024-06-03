@@ -87,7 +87,7 @@ includes  : verilen elemanı içeriyor mu ona bakar.
 
 */
 
-let arabalar = ["bmw","toyota","renault","mercedes","porsche"];
+let arabalar = ["bmw", "toyota", "renault", "mercedes", "porsche"];
 //let arabalar2 = ["hundai","tofaş"];
 
 //? push:
@@ -177,3 +177,48 @@ valueOf()
 startsWith()
 endsWith()
  */
+
+let text = "Full Stack Developer";
+let currentDate = "2024"
+
+//charAt() : (girilen index numarasının karakterini döner)
+let char = text.charAt(4);
+if (char == " ") {
+    console.log("Boşluk!");
+}
+console.log(char);
+
+//concat() : (birleştirir)
+let combine=text.concat(" ",currentDate);
+console.log(combine);
+
+//indexOf() : (girilen karakterin index numarsını döner)
+ let charIndexNo=text.indexOf("u");
+ console.log(charIndexNo);
+
+//trim() : (boşlukları siler)
+let test2 = "   javascript   "
+let deleteSpaces = test2.trim();
+console.log(deleteSpaces)
+
+//slice() : (başlangıç parametresini alır , bitiş parametresini dahil etmez.)
+console.log(text.slice(0,5))
+
+//subString() :
+console.log(text.substring(0,5))
+
+//replace() :
+console.log(text);
+console.log(text.replace("Fulll","Test"))
+
+//split() : (belirli karakterler arasındakileri bir dizi elemanı yap)
+console.log(text.split(" "));
+
+//valueOf() :
+console.log(text.valueOf());
+
+//startWith() : (girilen karakter ile başlıyormu?)
+console.log(text.startsWith("M")); //true
+
+//endsWith() : (girilen karakter ile bitiyormu?)
+console.log(text.endsWith("Developer")); //true
