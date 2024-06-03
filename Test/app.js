@@ -87,7 +87,7 @@ includes  : verilen elemanı içeriyor mu ona bakar.
 
 */
 
-let arabalar = ["bmw", "toyota", "renault", "mercedes", "porsche"];
+//let arabalar = ["bmw", "toyota", "renault", "mercedes", "porsche"];
 //let arabalar2 = ["hundai","tofaş"];
 
 //? push:
@@ -178,47 +178,108 @@ startsWith()
 endsWith()
  */
 
-let text = "Full Stack Developer";
-let currentDate = "2024"
+// let text = "Full Stack Developer";
+// let currentDate = "2024"
 
 //charAt() : (girilen index numarasının karakterini döner)
-let char = text.charAt(4);
-if (char == " ") {
-    console.log("Boşluk!");
-}
-console.log(char);
+// let char = text.charAt(4);
+// if (char == " ") {
+//     console.log("Boşluk!");
+// }
+// console.log(char);
 
 //concat() : (birleştirir)
-let combine=text.concat(" ",currentDate);
-console.log(combine);
+// let combine=text.concat(" ",currentDate);
+// console.log(combine);
 
 //indexOf() : (girilen karakterin index numarsını döner)
- let charIndexNo=text.indexOf("u");
- console.log(charIndexNo);
+//  let charIndexNo=text.indexOf("u");
+//  console.log(charIndexNo);
 
 //trim() : (boşlukları siler)
-let test2 = "   javascript   "
-let deleteSpaces = test2.trim();
-console.log(deleteSpaces)
+// let test2 = "   javascript   "
+// let deleteSpaces = test2.trim();
+// console.log(deleteSpaces)
 
 //slice() : (başlangıç parametresini alır , bitiş parametresini dahil etmez.)
-console.log(text.slice(0,5))
+// console.log(text.slice(0,5))
 
 //subString() :
-console.log(text.substring(0,5))
+// console.log(text.substring(0,5))
 
 //replace() :
-console.log(text);
-console.log(text.replace("Fulll","Test"))
+// console.log(text);
+// console.log(text.replace("Fulll","Test"))
 
 //split() : (belirli karakterler arasındakileri bir dizi elemanı yap)
-console.log(text.split(" "));
+// console.log(text.split(" "));
 
 //valueOf() :
-console.log(text.valueOf());
+// console.log(text.valueOf());
 
 //startWith() : (girilen karakter ile başlıyormu?)
-console.log(text.startsWith("M")); //true
+// console.log(text.startsWith("M")); //true
 
 //endsWith() : (girilen karakter ile bitiyormu?)
-console.log(text.endsWith("Developer")); //true
+// console.log(text.endsWith("Developer")); //true
+
+//----------------------------------------
+
+// *** Math Sınıfının Metotları ***
+
+/*
+ 1-Floor
+ 2-Ceil
+ 3-Round
+ 
+ 4-Max
+ 5-Min
+
+ 6-Random
+ 7-Abs
+ 8-Sqrt
+ ------> PI Sayısı
+ */
+
+ //Floor() : (Noktadan sonrasını atar.Aşağıdaki rakama yuvarlar.)
+ let a = 3.99;
+ let a2 = 3.15;
+ console.log(Math.floor(a)); // 3
+ console.log(Math.floor(a2)); // 3
+
+ //Ceil() : (Noktadan sonrasını atar.Yukaridaki rakama yuvarlar.)
+ let b = 6.99;
+ let b2 = 6.15;
+ console.log(Math.ceil(b)); // 7
+ console.log(Math.ceil(b)); // 7
+
+ //round() : (Noktadan sonrasını atar.Yakın olan rakama yuvarlar.)
+ let c = 8.99;
+ let c2 = 8.15;
+ console.log(Math.round(c)); // 9
+ console.log(Math.round(c2)); // 8
+
+ //max-min () : (dizideki büyük veya küçük sayıyı döner.)
+ console.log(Math.max(-4,5,10,50,23,1)) // 50
+ console.log(Math.min(-4,5,10,50,23,1)) // -4
+
+ //Abs() : (Mutlak değer almak için kullanılır.)
+ let d = 12;
+ let d2= -12;
+ console.log(Math.abs(d));  // +12
+ console.log(Math.abs(d2)); // +12
+
+ //Sqrt() : (Girilen sayının karekökünü verir.)
+ console.log(Math.sqrt(81)); // 9
+
+ //Pow() : 
+ let xNumber = 2;
+ let yPower = 4;
+ console.log(Math.pow(xNumber,yPower)); // 2^4= 16
+
+ //PI() : (Metot değil, bir özelliktir.)
+ console.log(Math.PI); //3,141592653589793
+
+ //Random() : (resgele sayı üretir.)
+ let rnd = Math.floor(Math.random()*1000);
+console.log(rnd);
