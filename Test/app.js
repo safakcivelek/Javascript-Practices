@@ -241,6 +241,7 @@ endsWith()
  ------> PI Sayısı
  */
 
+ /** 
  //Floor() : (Noktadan sonrasını atar.Aşağıdaki rakama yuvarlar.)
  let a = 3.99;
  let a2 = 3.15;
@@ -283,3 +284,8 @@ endsWith()
  //Random() : (resgele sayı üretir.)
  let rnd = Math.floor(Math.random()*1000);
 console.log(rnd);
+*/
+
+//----------------------------------------
+
+// *** Math Sınıfının Metotları ***
