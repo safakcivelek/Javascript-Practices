@@ -288,4 +288,4 @@ console.log(rnd);
 
 //----------------------------------------
 
-// *** Math Sınıfının Metotları ***
+// *** Date Sınıfının Metotları ***
