@@ -289,3 +289,24 @@ console.log(rnd);
 //----------------------------------------
 
 // *** Date Sınıfının Metotları ***
+
+let tarih = new Date();
+//get metotları:
+//console.log(tarih.getHours());
+//console.log(tarih.getFullYear());
+//console.log(tarih.getHours());
+//console.log(tarih.getDay());
+//console.log(tarih.getMinutes());
+//console.log(tarih.getMonth()+1);
+//console.log(tarih.toLocaleDateString());
+//console.log(tarih.toLocaleTimeString());
+//console.log(tarih.toLocaleString());
+
+//set metotları:
+console.log(tarih);
+//tarih.setDate(24);
+//tarih.setHours(15);
+//tarih.setMonth(11);
+
+//tarih.setHours(tarih.getHours()+2);
+console.log(tarih);
